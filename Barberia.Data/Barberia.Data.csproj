@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <!-- Referencia al proyecto de dominio -->
+  <ItemGroup>
+    <ProjectReference Include="..\Barberia.Domain\Barberia.Domain.csproj" />
+  </ItemGroup>
+
+  <!-- Paquete para conectar con SQL Server -->
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="5.2.0" />
+  </ItemGroup>
+
+</Project>

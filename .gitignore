@@ -1,0 +1,19 @@
+## Archivos de compilacion
+bin/
+obj/
+
+## Archivos de Visual Studio
+.vs/
+*.user
+*.suo
+
+## Archivos de NuGet
+packages/
+
+## Archivos del sistema
+nul
+Thumbs.db
+Desktop.ini
+
+## Otros
+.claude/
